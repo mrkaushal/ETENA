@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{site.title}} - {{site.description}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="PRO Card - Material Resume / CV / vCard Template" />
+    <meta name="keywords"
+        content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/animate.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/transition-animations.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/owl.carousel.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/magnific-popup.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css">
+
+    <script src="{{ '/assets/js/jquery-2.1.3.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/modernizr.custom.js' | relative_url }}"></script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <style>
+
+        /*Skills start*/
+        {% for skill in site.data.design-skills.designskill %}
+        .skill-percentage.skill-{{skill.index}} {
+            width: {{skill.percentage}}%;
+        }
+        {% endfor %}
+        /* Skills end */
+        {% for skill in site.data.coding-skills.codingskill %}
+        .skill-percentage.skill-{{skill.index}} {
+            width: {{skill.percentage}}%;
+        }
+        {% endfor %}
+    </style>
+</head>

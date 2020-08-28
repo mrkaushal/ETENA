@@ -1,0 +1,20 @@
+testimonial:
+  - name: Maria Richardson
+    image: assets/images/testimonials/testimonial_photo_1.jpg
+    firm: Lindsley's Lumber
+    quote: Phasellus eu nunc tincidunt, ultricies elit vitae, pretium eros. Sed sed ipsum sed massa.
+
+  - name: Maria Richardson
+    image: assets/images/testimonials/testimonial_photo_1.jpg
+    firm: Lindsley's Lumber
+    quote: Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem.
+
+  - name: Maria Richardson
+    image: assets/images/testimonials/testimonial_photo_1.jpg
+    firm: Lindsley's Lumber
+    quote: Aliquam congue auctor lectus sed fermentum. Nulla ultricies tellus quis sapien lacinia egestas.
+
+  - name: Maria Richardson
+    image: assets/images/testimonials/testimonial_photo_1.jpg
+    firm: Lindsley's Lumber
+    quote: Phasellus eu nunc tincidunt, ultricies elit vitae, pretium eros. Sed sed ipsum sed massa.

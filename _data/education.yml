@@ -1,0 +1,15 @@
+educations:
+  - course: Web Design
+    year: 2010
+    university: Stanford
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.
+  
+  - course: Web Developing
+    year: 2012
+    university: Stanford
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.
+
+  - course: Graphic Design
+    year: 2019
+    university: Stanford
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.

@@ -1,0 +1,12 @@
+codingskill:
+  - index: 1
+    name: "JQuery"
+    percentage: 30
+
+  - index: 2
+    name: "HTML 5"
+    percentage: 90
+
+  - index: 3
+    name: "CSS/SASS"
+    percentage: 70

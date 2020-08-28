@@ -1,0 +1,17 @@
+service:
+  - name: Web Design
+    image: assets/images/service/web_design_icon.png
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor.
+  - name: Photography
+    image: assets/images/service/photography_icon.png
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor.
+  - name: Management
+    image: assets/images/service/creativity_icon.png
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor.
+  - name: Advertising
+    image: assets/images/service/advetising_icon.png
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor.

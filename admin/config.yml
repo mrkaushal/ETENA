@@ -1,0 +1,258 @@
+backend:
+  name: github
+  repo: quantumx-dev/ETENA
+
+media_folder: "assets/uploads"
+
+collections:
+  - name: "main-settings"
+    label: "Main Settings"
+    files:
+      - label: "Main Settings"
+        name: "site"
+        file: "_config.yml"
+        fields:
+          - label: "Site Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Site Description"
+            name: "description"
+            widget: "string"
+
+          - label: "Author Configuration"
+            name: "author"
+            widget: "object"
+            fields:
+              - label: "Full Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Description"
+                name: "description"
+                widget: "string"
+
+              - label: "Age"
+                name: "age"
+                widget: "string"
+
+              - label: "Residence"
+                name: "residence"
+                widget: "string"
+
+              - label: "Address"
+                name: "address"
+                widget: "string"
+
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+              - label: "Phone"
+                name: "phone"
+                widget: "string"
+
+              - label: "Passion"
+                name: "passion"
+                widget: "string"
+
+              - label: "Resume"
+                name: "resume"
+                widget: "string"
+
+              - label: "Freelance"
+                name: "freelance"
+                widget: "string"
+
+          - label: "Author Configuration"
+            name: "api-settings"
+            widget: "object"
+            fields:
+              - label: "ReCaptcha API Key"
+                name: "recaptcha"
+                widget: "string"
+
+              - label: "Map API Key"
+                name: "map"
+                widget: "string"
+
+  - name: "social-settings"
+    label: "Social Settings"
+    files:
+      - label: "Social"
+        name: "socials"
+        file: "_data/socials.yml"
+        fields:
+          - label: "Social List"
+            name: "social"
+            widget: "list"
+            fields:
+              - label: "Social Icon"
+                name: "icon"
+                widget: "string"
+
+              - label: "Social Link"
+                name: "link"
+                widget: "string"
+
+  - name: "resume-settings"
+    label: "Resume Settings"
+    files:
+      - label: "Education"
+        name: "education"
+        file: "_data/education.yml"
+        fields:
+          - label: "Education List"
+            name: "educations"
+            widget: "list"
+            fields:
+              - label: "Course"
+                name: "course"
+                widget: "string"
+
+              - label: "Year"
+                name: "year"
+                widget: "string"
+
+              - label: "University"
+                name: "university"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+      - label: "Experiences"
+        name: "experience"
+        file: "_data/experience.yml"
+        fields:
+          - label: "Experiences"
+            name: "experiences"
+            widget: "list"
+            fields:
+              - label: "From"
+                name: "from"
+                widget: "string"
+
+              - label: "To"
+                name: "to"
+                widget: "string"
+
+              - label: "Company"
+                name: "company"
+                widget: "string"
+
+              - label: "Role"
+                name: "role"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+      - label: "Design Skill"
+        name: "design-skills"
+        file: "_data/design-skills.yml"
+        fields:
+          - label: "Skills"
+            name: "designskill"
+            widget: "list"
+            fields:
+              - label: "Index"
+                name: "index"
+                widget: "string"
+
+              - label: "Skill Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Percentage"
+                name: "percentage"
+                widget: "string"
+
+      - label: "Coding Skill"
+        name: "coding-skills"
+        file: "_data/coding-skills.yml"
+        fields:
+          - label: "Skills"
+            name: "codingskill"
+            widget: "list"
+            fields:
+              - label: "Index"
+                name: "index"
+                widget: "string"
+
+              - label: "Skill Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Percentage"
+                name: "percentage"
+                widget: "string"
+
+  - name: "service-settings"
+    label: "Service Settings"
+    files:
+      - label: "Services"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+          - label: "Service List"
+            name: "service"
+            widget: "list"
+            fields:
+              - label: "Service Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Description"
+                name: "description"
+                widget: "string"
+
+      - label: "Clients"
+        name: "clients"
+        file: "_data/clients.yml"
+        fields:
+          - label: "Client List"
+            name: "client"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Link"
+                name: "link"
+                widget: "string"
+
+      - label: "Testimonials"
+        name: "testimonials"
+        file: "_data/testimonials.yml"
+        fields:
+          - label: "Testimonial List"
+            name: "testimonial"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Firm"
+                name: "firm"
+                widget: "string"
+
+              - label: "Quote"
+                name: "quote"
+                widget: "string"

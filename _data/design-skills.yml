@@ -1,0 +1,12 @@
+designskill:
+  - index: 1
+    name: "Web Design"
+    percentage: 90
+
+  - index: 2
+    name: "Graphic Designer"
+    percentage: 80
+
+  - index: 3
+    name: "Print Desig"
+    percentage: 50
